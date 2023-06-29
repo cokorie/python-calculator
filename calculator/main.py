@@ -9,6 +9,10 @@ def add_to_calculation(symbol):
     text_result.insert(1.0, calculation);
 
 def eval_calculation():
+    global calculation;
+try:
+    pass;
+except:
     pass;
 
 def clear_field():
