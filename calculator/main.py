@@ -5,6 +5,7 @@ calculation = "";
 def add_to_calculation(symbol):
     global calculation;
     calculation += str(symbol);
+    text_result.delete(1.0, "end");
 
 def eval_calculation():
     pass;
