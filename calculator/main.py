@@ -21,6 +21,7 @@ def eval_calculation():
 def clear_field():
     global calculation;
     calculation = "";
+    text_result.delete(1.0, "end");
 
 root = tk.Tk();
 root.geometry("300x275");
