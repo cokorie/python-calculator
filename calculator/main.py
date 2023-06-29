@@ -1,4 +1,4 @@
-import tkinter as tkin;
+import _tkinter as tk;
 
 calculation = "";
 
@@ -10,3 +10,7 @@ def eval_calculation():
 
 def clear_field():
     pass;
+
+root = tk.Tk();
+root.geometry("300x275");
+root.mainloop();
