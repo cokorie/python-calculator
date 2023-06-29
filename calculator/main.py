@@ -3,7 +3,8 @@ import _tkinter as tk;
 calculation = "";
 
 def add_to_calculation(symbol):
-    pass;
+    global calculation;
+    calculation += str(symbol);
 
 def eval_calculation():
     pass;
