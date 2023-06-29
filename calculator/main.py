@@ -10,10 +10,11 @@ def add_to_calculation(symbol):
 
 def eval_calculation():
     global calculation;
-try:
-    calculation = str(eval(calculation));
-except:
-    pass;
+    try:
+        calculation = str(eval(calculation));
+        text_result.delete(1.0, "end");
+    except:
+        pass;
 
 def clear_field():
     pass;
