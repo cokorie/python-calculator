@@ -16,6 +16,7 @@ def eval_calculation():
         text_result.insert(1.0, calculation);
     except:
         clear_field();
+        text_result.insert(1.0, "Error");
 
 def clear_field():
     pass;
