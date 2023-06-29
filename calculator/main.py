@@ -11,7 +11,7 @@ def add_to_calculation(symbol):
 def eval_calculation():
     global calculation;
 try:
-    pass;
+    calculation = str(eval(calculation));
 except:
     pass;
 
