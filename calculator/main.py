@@ -19,7 +19,8 @@ def eval_calculation():
         text_result.insert(1.0, "Error");
 
 def clear_field():
-    pass;
+    global calculation;
+    calculation = "";
 
 root = tk.Tk();
 root.geometry("300x275");
