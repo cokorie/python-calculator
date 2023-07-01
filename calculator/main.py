@@ -63,6 +63,7 @@ btn_plus = tk.Button(root, text="+", command=lambda: add_to_calculation("+"), wi
 btn_plus.grid(row=2, column=4);
 
 btn_minus = tk.Button(root, text="-", command=lambda: add_to_calculation("-"), width=5, font=("Helvetica, 14"));
+btn_minus.grid(row=3, column=4);
 
 
 root.mainloop();
