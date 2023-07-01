@@ -75,6 +75,7 @@ btn_open_paren = tk.Button(root, text="(", command=lambda: add_to_calculation("(
 btn_open_paren.grid(row=5, column=1);
 
 btn_close_paren = tk.Button(root, text=")", command=lambda: add_to_calculation(")"), width=5, font=("Helvetica, 14"));
+btn_close_paren.grid(row=5, column=3);
 
 
 root.mainloop();
