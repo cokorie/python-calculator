@@ -71,4 +71,6 @@ btn_multi.grid(row=4, column=4);
 btn_div = tk.Button(root, text="/", command=lambda: add_to_calculation("/"), width=5, font=("Helvetica, 14"));
 btn_div.grid(row=5, column=4);
 
+btn_open_paren = tk.Button(root, text="(", command=lambda: add_to_calculation("("), width=5, font=("Helvetica, 14"));
+
 root.mainloop();
