@@ -81,5 +81,6 @@ btn_clear = tk.Button(root, text="C", command=clear_field, width=11, font=("Helv
 btn_clear.grid(row=6, column=1, columnspan=2);
 
 btn_equals = tk.Button(root, text="=", command=eval_calculation, width=11, font=("Helvetica, 14"));
+btn_equals.grid(row=6, column=3, columnspan=2);
 
 root.mainloop();
