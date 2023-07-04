@@ -50,7 +50,7 @@ btn_6.grid(row=3, column=3);
 btn_7 = tk.Button(root, text="7", command=lambda: add_to_calculation(7), width=5, font=("Times New Roman, 14"));
 btn_7.grid(row=4, column=1);
 
-btn_8 = tk.Button(root, text="8", command=lambda: add_to_calculation(8), width=5, font=("Verdana, 14"));
+btn_8 = tk.Button(root, text="8", command=lambda: add_to_calculation(8), width=5, font=("Times New Roman, 14"));
 btn_8.grid(row=4, column=2);
 
 btn_9 = tk.Button(root, text="9", command=lambda: add_to_calculation(9), width=5, font=("Verdana, 14"));
