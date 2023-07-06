@@ -24,7 +24,7 @@ def clear_field():
     text_result.delete(1.0, "end");
 
 root = tk.Tk();
-root.geometry("300x275");
+root.geometry("600x550");
 
 text_result = tk.Text(root, height=2, width=16, font=("Arial", 24));
 text_result.grid(columnspan=5);
