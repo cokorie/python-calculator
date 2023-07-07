@@ -80,7 +80,7 @@ btn_close_paren.grid(row=5, column=3);
 btn_clear = tk.Button(root, text="C", command=clear_field, width=11, font=("Arial, 14"));
 btn_clear.grid(row=6, column=1, columnspan=2);
 
-btn_equals = tk.Button(root, text="=", command=eval_calculation, width=11, font=("Arial, 28"));
+btn_equals = tk.Button(root, text="=", command=eval_calculation, width=11, font=("Arial, 14"));
 btn_equals.grid(row=6, column=3, columnspan=2);
 
 root.mainloop();
