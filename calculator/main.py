@@ -65,7 +65,7 @@ btn_plus.grid(row=2, column=4);
 btn_minus = tk.Button(root, text="-", command=lambda: add_to_calculation("-"), width=5, font=("Arial, 14"));
 btn_minus.grid(row=3, column=4);
 
-btn_multi = tk.Button(root, text="*", command=lambda: add_to_calculation("*"), width=5, font=("Arial, 28"));
+btn_multi = tk.Button(root, text="*", command=lambda: add_to_calculation("*"), width=5, font=("Arial, 14"));
 btn_multi.grid(row=4, column=4);
 
 btn_div = tk.Button(root, text="/", command=lambda: add_to_calculation("/"), width=5, font=("Arial, 28"));
