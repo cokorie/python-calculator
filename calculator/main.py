@@ -53,7 +53,7 @@ btn_7.grid(row=4, column=1);
 btn_8 = tk.Button(root, text="8", command=lambda: add_to_calculation(8), width=5, font=("Arial, 14"));
 btn_8.grid(row=4, column=2);
 
-btn_9 = tk.Button(root, text="9", command=lambda: add_to_calculation(9), width=5, font=("Arial, 28"));
+btn_9 = tk.Button(root, text="9", command=lambda: add_to_calculation(9), width=5, font=("Arial, 14"));
 btn_9.grid(row=4, column=3);
 
 btn_0 = tk.Button(root, text="0", command=lambda: add_to_calculation(0), width=5, font=("Arial, 28"));
