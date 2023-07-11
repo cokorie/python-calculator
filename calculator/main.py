@@ -73,6 +73,7 @@ btn_multi.grid(row=4, column=4);
 btn_div = tk.Button(root, text="/", command=lambda: add_to_calculation("/"), width=5, font=("Courier, 14"));
 btn_div.grid(row=5, column=4);
 
+## Section for parens, clear and equals calculator buttons
 btn_open_paren = tk.Button(root, text="(", command=lambda: add_to_calculation("("), width=5, font=("Courier, 14"));
 btn_open_paren.grid(row=5, column=1);
 
