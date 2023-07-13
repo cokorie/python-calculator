@@ -3,6 +3,7 @@ import tkinter as tk;
 
 calculation = "";
 
+## Variable function for adding each calculation
 def add_to_calculation(symbol):
     global calculation;
     calculation += str(symbol);
