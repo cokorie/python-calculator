@@ -10,6 +10,7 @@ def add_to_calculation(symbol):
     text_result.delete(1.0, "end");
     text_result.insert(1.0, calculation);
 
+## Variable function for calculating full total of calculation
 def eval_calculation():
     global calculation;
     try:
