@@ -21,6 +21,7 @@ def eval_calculation():
         clear_field();
         text_result.insert(1.0, "Error");
 
+## Variable function for clear calculator input
 def clear_field():
     global calculation;
     calculation = "";
