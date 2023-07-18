@@ -27,6 +27,7 @@ def clear_field():
     calculation = "";
     text_result.delete(1.0, "end");
 
+## Code for Tkinter GUI formation
 root = tk.Tk();
 root.geometry("300x275");
 
