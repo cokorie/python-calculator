@@ -31,6 +31,7 @@ def clear_field():
 root = tk.Tk();
 root.geometry("300x275");
 
+## Code for displaying calculator input and results
 text_result = tk.Text(root, height=2, width=16, font=("Courier", 24));
 text_result.grid(columnspan=5);
 
