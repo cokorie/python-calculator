@@ -76,7 +76,7 @@ btn_minus.grid(row=3, column=4);
 btn_multi = tk.Button(root, text="*", command=lambda: add_to_calculation("*"), width=5, font=("Arial Black, 14"));
 btn_multi.grid(row=4, column=4);
 
-btn_div = tk.Button(root, text="/", command=lambda: add_to_calculation("/"), width=5, font=("Arial, 14"));
+btn_div = tk.Button(root, text="/", command=lambda: add_to_calculation("/"), width=5, font=("Arial Black, 14"));
 btn_div.grid(row=5, column=4);
 
 ## Section for parens, clear and equals calculator buttons
