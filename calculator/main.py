@@ -32,7 +32,7 @@ root = tk.Tk();
 root.geometry("600x550");
 
 ## Code for displaying calculator input and results
-text_result = tk.Text(root, height=2, width=16, font=("Arial Black", 24));
+text_result = tk.Text(root, height=2, width=16, font=("Arial Black", 48));
 text_result.grid(columnspan=5);
 
 ## Section for calculator buttons, 1 through 0
