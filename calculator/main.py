@@ -63,7 +63,7 @@ btn_8.grid(row=4, column=2);
 btn_9 = tk.Button(root, text="9", command=lambda: add_to_calculation(9), width=5, font=("Arial Black, 28"));
 btn_9.grid(row=4, column=3);
 
-btn_0 = tk.Button(root, text="0", command=lambda: add_to_calculation(0), width=5, font=("Arial Black, 14"));
+btn_0 = tk.Button(root, text="0", command=lambda: add_to_calculation(0), width=5, font=("Arial Black, 28"));
 btn_0.grid(row=5, column=2);
 
 ## Section for math operator buttons (+, -, * and /)
