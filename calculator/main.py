@@ -29,7 +29,7 @@ def clear_field():
 
 ## Code for Tkinter GUI formation
 root = tk.Tk();
-root.geometry("900x825");
+root.geometry("300x275");
 
 ## Code for displaying calculator input and results
 text_result = tk.Text(root, height=2, width=16, font=("Arial Black", 24));
