@@ -19,7 +19,7 @@ def eval_calculation():
         text_result.insert(1.0, calculation);
     except:
         clear_field();
-        text_result.insert(1.0, "Error");
+        text_result.insert(1.0, "Not Valid");
 
 ## Variable function for clear calculator input
 def clear_field():
