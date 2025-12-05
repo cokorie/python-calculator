@@ -15,7 +15,7 @@ def eval_calculation():
     global calculation;
     try:
         calculation = str(eval(calculation));
-        text_result.delete(1.0, "end");
+        text_result.delete(1.0, "End");
         text_result.insert(1.0, calculation);
     except:
         clear_field();
