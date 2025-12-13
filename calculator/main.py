@@ -1,5 +1,5 @@
 ## Mount for Tkinter import
-import tkinter as tk;
+import _tkinter as tk;
 
 calculation = "";
 
