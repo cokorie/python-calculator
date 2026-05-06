@@ -25,7 +25,7 @@ def eval_calculation():
 def clear_field():
     global calculation;
     calculation = "";
-    text_result.delete(1.0, "end");
+    text_result.delete(1.0, "END");
 
 ## Code for Tkinter GUI formation
 root = tk.Tk();
