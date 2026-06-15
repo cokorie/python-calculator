@@ -7,7 +7,7 @@ calculation = "";
 def add_to_calculation(symbol):
     global calculation;
     calculation += str(symbol);
-    text_result.delete(1.0, "end");
+    text_result.delete(1.0, "END");
     text_result.insert(1.0, calculation);
 
 ## Variable function for calculating full total of calculation
